@@ -1,0 +1,21 @@
+.image{
+    margin: 50px;
+    padding-top:10px;
+    height: 600px;
+    width:700px;
+    float: left;
+}
+
+.main{
+    margin: 0px;
+    padding: 0px;
+}
+.align{
+    /* background-color: rgb(6, 235, 216); */
+    
+    padding-top: 300px;
+    padding-right: 250px;
+    float: right;
+    display: flex;
+    
+}
