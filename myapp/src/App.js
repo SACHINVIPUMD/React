@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import Functionalcom from './Component/Functionalcom.js';
 import './App.css';
-
+import ClassComponent from './Component/ClassComponent.js';
+import OneExport from './Component/OneExport.js';
+import Greeting from './Component/Greeting.jsx';
 function App() {
   return (
-    <div className='Parent'>
-    <div className="form">
+    <div>
+      <Functionalcom />
+      <ClassComponent />
+      <OneExport />
+      <Greeting />
+    {/* <div className="form">
       <form>
 
       <div>
@@ -91,9 +97,11 @@ function App() {
     <br></br>
     <input type='submit'></input>
         </form>
-    </div>
+    </div> */}
     </div>
   );
 }
 
 export default App;
+
+
