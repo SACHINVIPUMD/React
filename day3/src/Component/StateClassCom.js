@@ -16,6 +16,7 @@ export default class StateClassCom extends Component {
             price:price--
         })
     }
+  
   render() {
     return (
       <div>

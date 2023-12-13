@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url("loginbg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.container {
+  margin-left: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  float: right;
+  /* padding-left: 50px; */
+}
+
+form {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(44, 147, 221);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #49b0f0;
+}
+
+h2 {
+  color: #333;
+}
+h1{
+  text-align: center;
+}
+/* App.css */
+/* ... (existing styles) */
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.left-section {
+  float: left;
+  margin: 10px;
+  padding-right: 20pxpx;
+  border: 1px solid bisque;
+  border-radius: 10px;
+}
+
+.Parent{
+  padding-top: 70px;
+  align-items: center ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  /* font-size: 26; */
+  text-shadow:5px 5px 5px grey;
+}
