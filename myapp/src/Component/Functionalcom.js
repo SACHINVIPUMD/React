@@ -5,4 +5,15 @@ function Functionalcom(){
         </div>
     )
 }
-export default Functionalcom
+function LoopPrint(props) {
+    const elements = [];
+    for (let i = 0; i < props.ele; i++) {
+      console.log(i);
+      elements.push(<Functionalcom key={i} />);
+    }
+  
+    return <div>{elements}</div>;
+  }
+  
+export default LoopPrint;
+

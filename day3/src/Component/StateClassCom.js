@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { Component } from 'react'
 
-var price=120;
+var price=120; 
 export default class StateClassCom extends Component {
     state={
         color:"yellow",

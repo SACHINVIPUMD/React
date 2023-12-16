@@ -1,15 +1,17 @@
-import Functionalcom from './Component/Functionalcom.js';
+// import loop from './Component/Functionalcom.js';
 import './App.css';
 import ClassComponent from './Component/ClassComponent.js';
 import OneExport from './Component/OneExport.js';
 import Greeting from './Component/Greeting.jsx';
+import LoopPrint from './Component/Functionalcom.js';
 function App() {
   return (
     <div>
-      <Functionalcom />
+      {/* <Functionalcom /> */}
       <ClassComponent />
       <OneExport />
       <Greeting />
+      <LoopPrint ele = {5} />
     {/* <div className="form">
       <form>
 
